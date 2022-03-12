@@ -13,3 +13,18 @@ const sequelize = process.env.JAWSDB_URL
     });
 
 module.exports = sequelize;
+
+// const Sequelize = require('sequelize');
+
+// let sequelize;
+
+// if(process.env.JAWSDB_URL) {
+//     sequelize = new Sequelize(process.env.JAWSDB_URL);
+// } else {
+//     sequelize = new Sequelize ('ecommerce_db', 'root', 'ChPiAr121191$', {
+//     dialect: 'mysql',
+//     host: 'localhost',
+//     port: process.env.PORT || 3002
+//     });
+// }
+// module.exports = sequelize;
